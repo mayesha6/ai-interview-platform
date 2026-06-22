@@ -43,14 +43,6 @@ export function FeatureSection() {
   })}
 </div>
 
-      {/* Scroll Indicator */}
-      <button 
-        aria-label="Scroll down"
-        className="h-12 w-12 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-foreground transition-colors"
-      >
-        <ArrowDown className="h-5 w-5" />
-      </button>
-
     </section>
   );
 }
